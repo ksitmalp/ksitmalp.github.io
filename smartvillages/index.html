@@ -1,99 +1,98 @@
 <!DOCTYPE html>
-<html>
-<head>
-<style>
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
-}
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>jQuery lightGallery demo</title>
+    <link href="./css/lightgallery.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>Click the picture to see the lightGallery effect</h1>
+    <div class="container" id="lightgallery">
+      <a href="./img/main.jpg">
+        <img src="./img/n1.jpg" />
+      </a>
+      <a href="./img/train.jpg" class="vertical">
+        <img src="./img/n2.jpg" />
+      </a>
+      <a href="./img/951550.jpg" class="horizontal">
+        <img src="./img/n3.jpg" />
+      </a>
+      <a href="./img/b4.jpg">
+        <img src="./img/b4.jpg" />
+      </a>
 
-div.gallery:hover {
-  border: 1px solid #777;
-}
+      <a href="./img/1282014.jpg" class="horizontal">
+        <img src="./img/1282014.jpg" />
+      </a>
 
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
+      <a href="./img/b6.jpg" class="big">
+        <img src="./img/n4.jpg" />
+      </a>
+      <a href="./img/b2.jpg">
+        <img src="./img/n4.jpg" />
+      </a>
 
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-</style>
-</head>
-<title>Smart Village Offices</title>
-<body>
+      <a href="./img/s3.jpg" class="vertical">
+        <img src="./img/b1.jpg" />
+      </a>
 
-<!-- <div class="gallery">
-  <a target="_blank" href="/images/smartVillages/ala.jpeg">
-    <img src="/images/smartVillages/ala.jpeg" alt="ala old" width="600" height="400">
-  </a>
-  <div class="desc">Ala old village office</div>
-</div> -->
+      <a href="./img/headphone.jpg">
+        <img src="./img/headphone.jpg" />
+      </a>
 
-<!-- <div class="gallery">
-  <a target="_blank" href="/images/smartVillages/alanew.jpeg">
-    <img src="/images/smartVillages/alanew.jpeg" alt="ala new" width="600" height="300">
-  </a>
-  <div class="desc">Ala smart village office </div>
-</div> -->
+      <a href="./img/w2.jpeg" class="horizontal">
+        <img src="./img/n5.jpg" />
+      </a>
 
-<div class="gallery">
-  <a target="_blank" href="/images/smartVillages/cherthalasouthold.jpeg">
-    <img src="/images/smartVillages/cherthalasouthold.jpeg" alt="CSOld" width="600" height="400">
-  </a>
-  <div class="desc">Cherthala South old village office</div>
-</div>
+      <a href="./img/s1.jpg">
+        <img src="./img/n6.jpg" />
+      </a>
 
-<div class="gallery">
-  <a target="_blank" href="/images/smartVillages/cherthlasouthnew.jpeg">
-    <img src="/images/smartVillages/cherthlasouthnew.jpeg" alt="CSNew" width="600" height="400">
-  </a>
-  <div class="desc">Cherthala South Smart Village Office</div>
-</div>
-<div class="gallery">
-    <a target="_blank" href="/images/smartVillages/pandanadu.jpeg">
-      <img src="/images/smartVillages/pandanadu.jpeg" alt="pandanaduold" width="600" height="400">
-    </a>
-    <div class="desc">Pandanadu old village office</div>
-  </div>
-  
-  <div class="gallery">
-    <a target="_blank" href="/images/smartVillages/pandanadunew.jpeg">
-      <img src="/images/smartVillages/pandanadunew.jpeg" alt="pandanaduNew" width="600" height="400">
-    </a>
-    <div class="desc">pandanadu Smart Village Office</div>
-  </div>
-  <div class="gallery">
-    <a target="_blank" href="/images/smartVillages/karthikapally.jpeg">
-      <img src="/images/smartVillages/karthikapally.jpeg" alt="karthikappally" width="600" height="400">
-    </a>
-    <div class="desc">Karthikapally Smart Village Office</div>
-  </div>
-  
-  <div class="gallery">
-    <a target="_blank" href="/images/smartVillages/thekekkara.jpeg">
-      <img src="/images/smartVillages/thekekkara.jpeg" alt="thekkekaraNew" width="600" height="400">
-    </a>
-    <div class="desc">Thekkekkara Smart Village Office</div>
-  </div>
+      <a href="./img/computer.jpg" class="big">
+        <img src="./img/computer.jpg" />
+      </a>
 
-  <div class="gallery">
-    <a target="_blank" href="/images/smartVillages/pattanakad.jpg">
-      <img src="/images/smartVillages/pattanakad.jpg" alt="pattanakkadNew" width="600" height="400">
-    </a>
-    <div class="desc">pattanakad Smart Village Office</div>
-  </div>
+      <a href="./img/computer.jpg">
+        <img src="./img/b1.jpg" />
+      </a>
 
-  <div class="gallery">
-    <a target="_blank" href="/images/smartVillages/kannamangalam.jpeg">
-      <img src="/images/smartVillages/kannamangalam.jpeg" alt="kannamangalamNew" width="600" height="400">
-    </a>
-    <div class="desc">kannamangalam Village Office</div>
-  </div>
+      <a href="./img/b5.jpg" class="horizontal">
+        <img src="./img/n6.jpg" />
+      </a>
 
-</body>
+      <a href="./img/w1.jpg">
+        <img src="./img/w1.jpg" />
+      </a>
+
+      <a href="./img/b3.jpg" class="big">
+        <img src="./img/n7.jpg" />
+      </a>
+
+      <a href="./img/.jpg">
+        <img src="./img/b4.jpg" />
+      </a>
+
+      <a href="./img/road.jpg" class="vertical">
+        <img src="./img/b4.jpg" />
+      </a>
+      <a href="./img/s4.jpg" class="big">
+        <img src="./img/s4.jpg" />
+      </a>
+      <a href="./img/tree.jpg" class="vertical">
+        <img src="./img/tree.jpg" />
+      </a>
+      <a href="./img/s2.jpg">
+        <img src="./img/s2.jpg" />
+      </a>
+      <a href="./img/b3.jpg">
+        <img src="./img/b3.jpg" />
+      </a>
+    </div>
+    <script src="./js/lightgallery.js"></script>
+    <script>
+      var imagPop = document.getElementById("lightgallery");
+      lightGallery(imagPop);
+    </script>
+  </body>
 </html>
